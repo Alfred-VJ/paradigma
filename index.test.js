@@ -10,7 +10,7 @@ describe('Debes retornar el número de valles que cruzo el usuario', () => {
     });
 
     test('Para los pasos "SSSDUUUUDUU" deberías retornar ==> 1', () => {
-        expect(valles("SSSDUUUUDUU")).toBe(2);
+        expect(valles("SSSDUUUUDUU")).toBe(1);
     });
 
     test('Para los pasos "DDDDUUUSS" deberías retornar ==> 0', () => {
@@ -19,5 +19,9 @@ describe('Debes retornar el número de valles que cruzo el usuario', () => {
 
     test('Para los pasos "DDDDUDUUDUUDUUDUDU" deberías retornar ==> 3', () => {
         expect(valles("DDDDUDUUDUUDUUDUDU")).toBe(3);
+    });
+
+    test('Para los pasos "SSSDUUUUDUUSSSSUDDUDDDDDUUUDDDDUU" deberías retornar ==> 5', () => {
+        expect(valles("SSSDUUUUDUUSSSSUDDUDDDDDUUUDDDDUU")).toBe(5);
     });
 });
