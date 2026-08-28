@@ -19,6 +19,8 @@ function valles(steps) {
     let spacingT = {
         sp: 345,
         rightPower: "brin",
+
+        nuevo: "neste es el nuvo cambio",
     }
 };
 
