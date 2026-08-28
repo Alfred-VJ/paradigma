@@ -20,8 +20,6 @@ function valles(steps) {
         sp: 345,
         rightPower: "brin",
 
-        nuevo: "neste es el nuvo cambio",
-        o:{}
     }
 };
 
