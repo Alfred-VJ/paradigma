@@ -15,7 +15,12 @@ Por ejemplo si te mandan el siguiente String:
 */
 
 
-function valles(steps) { };
+function valles(steps) { 
+    let spacingT = {
+        sp: 345,
+        rightPower: "brin",
+    }
+};
 
 module.exports = {
     valles
